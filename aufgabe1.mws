@@ -1,0 +1,116 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "z1(x1):=-0.5*x1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%#z1G6#%#x1G,$F'$!\"&!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "n1(x1):=28-2*x1;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>-%#n1G6#%#x1G,&\"#F\"\"\"*&\"\"#F*F'F*!\"\"
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "n2(x1):=20-0.75*x1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%#n2G6#%#x1G,&\"#?\"\"\"*&$\"#v!\"#F
+*F'F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "8*x2+6*x1=160
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "n3(x1):=38-3*x1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>-%#n3G6#%#x1G,&\"#Q\"\"\"*&\"\"$F*F'F
+*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "a(x1):=9999-99999
+*x1;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>-%\"aG6#%#x1G,&\"%****\"\"\"*&\"&*****F*F'F*!\"\"" }}}
+{EXCHG {PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "smartplot(n
+1(x1),n2(x1),n3(x1),0,a(x1));" }}{PARA 13 "" 1 "" {NEWSMARTPLOT2D 579 
+601 601 "[27-2*x1, x1, _NoY, color = red, legend = \"x2=28-2*x1\", thi
+ckness = 3], [20-.75*x1, x1, _NoY, color = blue, legend = \"x2=20-0.75
+*x1\", thickness = 3], [38-3*x1, x1, _NoY, color = green, legend = \"x
+2=38-3*x1\", thickness = 3], [0, _NoX, _NoY, color = brown, legend = \+
+\"x2=0\", thickness = 3], [9999-99999*x1, x1, _NoY, color = cyan, lege
+nd = \"x1=0\", thickness = 3], view = [0 .. 40, 0 .. 40], axes = NORMA
+L, scaling = CONSTRAINED" {PLOTDATA 2 "6+-%'CURVESG6&7S7$$\"\"!F)$\"#F
+F)7$$\"3Hmmmm;')=()!#=$\"3xmmmmFiDD!#;7$$\"3RLLLe'40j\"!#<$\"3YLLLo!)*
+QP#F27$$\"3ommm;6m$[#F6$\"3emmmwxE.AF27$$\"3Dnmm;yYULF6$\"3YmmmOk]J?F2
+7$$\"3ELLLeF>(>%F6$\"3OLLL[9cg=F27$$\"3%omm;>K'*)\\F6$\"3jmmmhN2-<F27$
+$\"3g*****\\Kd,\"eF6$\"33+++N&oz`\"F27$$\"3Onmm\"fX(emF6$\"3ammm\")3Do
+8F27$$\"3O+++DCh/vF6$\"3#******\\^x!*>\"F27$$\"3uMLLL/pu$)F6$\"31LLL8>
+1D5F27$$\"3mnmm;c0T\"*F6$\"3okmmm())yr)F67$$\"35+++I,Q+5F2$\"3)z******
+R(R#*pF67$$\"31+++]*3q3\"F2$\"3w)*******4#)f_F67$$\"3/+++q=\\q6F2$\"3I
+*******fi,f$F67$$\"3umm;fBIY7F2$\"3?lmm;G&R2#F67$$\"3TLLLj$[kL\"F2$\"3
+x<LLLtK5FF/7$$\"3ZLLL`Q\"GT\"F2$!3QpmmmqFc7F67$$\"3.++]s]k,:F2$!3n+++]
+9!H.$F67$$\"3GLLL`dF!e\"F2$!3blmmm]^0YF67$$\"3G++]sgam;F2$!3G0++]9#4L'
+F67$$\"3;++]<ep[<F2$!3A.++]j\"R(zF67$$\"3qLLLe/TM=F2$!3'Qnmm;4#)o*F67$
+$\"3SLL$eDBJ\">F2$!3\"omm;^Yi7\"F27$$\"3kmmmTc-)*>F2$!3ELLL$G^gH\"F27$
+$\"3)omm\"f`@'3#F2$!3uLLL=2Vs9F27$$\"31++]nZ)H;#F2$!37+++N&pfi\"F27$$
+\"3+nmmJy*eC#F2$!3)RLLLm&z\"z\"F27$$\"3/+++S^bJBF2$!33+++!G5J'>F27$$\"
+37+++0TN:CF2$!3C+++5#328#F27$$\"3A++]7RV'\\#F2$!3W+++Dy'GH#F27$$\"3+++
++:#fke#F2$!3++++I%=HZ#F27$$\"31LLL`4NnEF2$!36mmm1>qMEF27$$\"3?+++],s`F
+F2$!3Q++++.W2GF27$$\"3\\mm;zM)>$GF2$!3)HLL$ep'R'HF27$$\"3Z+++qfa<HF2$!
+3%4+++%>4NJF27$$\"3=LL$eg`!)*HF2$!3Ommm6s5'H$F27$$\"3I++]#G2A3$F2$!3e+
+++lXTkMF27$$\"3;LLL$)G[kJF2$!3Lmmmmd'*GOF27$$\"3#)****\\7yh]KF2$!3j***
+**\\iN7!QF27$$\"3/nmm')fdLLF2$!33MLLt>:nRF27$$\"3=nmm,FT=MF2$!3NMLL.a#
+o8%F27$$\"3!QLLe#pa-NF2$!3gnmm^Q40VF27$$\"3W+++Sv&)zNF2$!3'3+++3:(fWF2
+7$$\"3#RLL$GUYoOF2$!3%ymmmXGpj%F27$$\"39nmm1^rZPF2$!3GMLL8-V&z%F27$$\"
+35++]sI@KQF2$!3?+++XhUk\\F27$$\"3W++]2%)38RF2$!3*3++]\"o<E^F27$$\"#SF)
+$!#`F)-%'LEGENDG6#Q+x2=28-2*x16\"-%'COLOURG6&%$RGBG$\"*++++\"!\")F(F(-
+%*THICKNESSG6#\"\"$-F$6&7S7$F($\"#?F)7$F-$\"38++]P&3Y$>F27$F4$\"3++]iv
+<rx=F27$F:$\"3(****\\iTDP\"=F27$F?$\"3!)***\\P\"\\J\\<F27$FD$\"3#***\\
+7V0@&o\"F27$FI$\"3&***\\i&exdi\"F27$FN$\"3#***\\i+#QUc\"F27$FS$\"3!***
+\\i!3%f+:F27$FX$\"3++]7oS:P9F27$Fgn$\"3!*****\\<#)*=P\"F27$F\\o$\"3(**
+**\\(G3U98F27$Fao$\"3))****\\-\\r\\7F27$Ffo$\"3#*****\\(GVZ=\"F27$F[p$
+\"3)*****\\(4J@7\"F27$F`p$\"3++]iIKFl5F27$Fep$\"3')*****\\FPm(**F67$Fj
+p$\"3)*)******4'*QS*F67$F_q$\"3J***\\i&>mP()F67$Fdq$\"3'3+++&=$z9)F67$
+Fiq$\"3-)**\\iX/4](F67$F^r$\"3!z**\\(o8y%)oF67$Fcr$\"3T'***\\i:#>C'F67
+$Fhr$\"3Q++D\"ev:l&F67$F]s$\"3R****\\(o2[,&F67$Fbs$\"3Y)**\\i![Q`VF67$
+Fgs$\"3K,+vVUhxPF67$F\\t$\"3[)***\\iiwbJF67$Fat$\"3h+++]kL8DF67$Fft$\"
+37****\\7U%[)=F67$F[u$\"39++Dccuw7F67$F`u$\"3@#)***\\()eb,'F/7$Feu$!3d
+#*y*****\\@8&!#?7$Fju$!3Q'*****\\7,HlF/7$F_v$!3j)**\\P4w)R7F67$Fdv$!3]
+.++vZf\")=F67$Fiv$!3u***\\P/-a[#F67$F^w$!3G,+v=Yb;JF67$Fcw$!3%y****\\i
+@Ot$F67$Fhw$!3Q++v$fL'zVF67$F]x$!3)4+++!*>=+&F67$Fbx$!3/-+]i_4QcF67$Fg
+x$!3u,+vV>5piF67$F\\y$!3?.++]:$*[oF67$Fay$!3j-+]7<[8vF67$Ffy$!3K0+++L'
+y5)F67$F[z$!3\\-+vV!)fT()F67$F`z$!3a,+DcI;[$*F67$Fez$!#5F)-Fjz6#Q.x2=2
+0-0.75*x1F][l-F_[l6&Fa[lF(F(Fb[lFe[l-F$6&7S7$F($\"#QF)7$F-$\"3z******
+\\TVQNF27$F4$\"3,++]-r%3J$F27$F:$\"3))*****\\m,\\0$F27$F?$\"3')*****\\
+lfsz#F27$FD$\"3-++]s@%3a#F27$FI$\"3x****\\U.6.BF27$FN$\"3/++]-G&p0#F27
+$FS$\"3i****\\AjP-=F27$FX$\"3)*****\\sih[:F27$Fgn$\"3e******pGf(G\"F27
+$F\\o$\"3))*****\\J$od5F27$Fao$\"3?&******4'f))zF67$Ffo$\"3M'******\\J
+(*Q&F67$F[p$\"3'*)*******QC&)GF67$F`p$\"3w&*****\\AH4hF/7$Fep$!3c++++4
+X$4#F67$Fjp$!33/+++cT%Q%F67$F_q$!3y-++v@N\\qF67$Fdq$!3a'******fs#3%*F6
+7$Fiq$!3!3++v@Q'*>\"F27$F^r$!3%3++DX(3Y9F27$Fcr$!3W,++v8B.<F27$Fhr$!3'
+)****\\n(p$R>F27$F]s$!3C+++Dp2%>#F27$Fbs$!3i++]xgkeCF27$Fgs$!3[****\\-
+V&*)o#F27$F\\t$!3h+++&\\$pPHF27$Fat$!3w******>am%>$F27$Fft$!3O+++:B1YM
+F27$F[u$!3'*****\\P<I*o$F27$F`u$!3s+++XwPfRF27$Feu$!3;******fG0-UF27$F
+ju$!3')******\\/;hWF27$F_v$!3Y****\\P/&fp%F27$Fdv$!3S,++5zj_\\F27$Fiv$
+!3!*****\\<3;%>&F27$F^w$!3_++]Z=iYaF27$Fcw$!39******\\'[Mp&F27$Fhw$!3;
+++]PM&=&fF27$F]x$!3R+++gzs+iF27$Fbx$!3#3++]5Q_X'F27$Fgx$!3q++]x2k2nF27
+$F\\y$!3G,++?EdRpF27$Fay$!30,++&o#R0sF27$Ffy$!38-++?`9VuF27$F[z$!3+,+]
+<#Rmp(F27$F`z$!3i++]A_ERzF27$Fez$!##)F)-Fjz6#Q+x2=38-3*x1F][l-F_[l6&Fa
+[lF(Fb[lF(Fe[l-F$6&7S7$F(F(7$F-F(7$F4F(7$F:F(7$F?F(7$FDF(7$FIF(7$FNF(7
+$FSF(7$FXF(7$FgnF(7$F\\oF(7$FaoF(7$FfoF(7$F[pF(7$F`pF(7$FepF(7$FjpF(7$
+F_qF(7$FdqF(7$FiqF(7$F^rF(7$FcrF(7$FhrF(7$F]sF(7$FbsF(7$FgsF(7$F\\tF(7
+$FatF(7$FftF(7$F[uF(7$F`uF(7$FeuF(7$FjuF(7$F_vF(7$FdvF(7$FivF(7$F^wF(7
+$FcwF(7$FhwF(7$F]xF(7$FbxF(7$FgxF(7$F\\yF(7$FayF(7$FfyF(7$F[zF(7$F`zF(
+7$FezF(-Fjz6#Q%x2=0F][l-F_[l6&Fa[l$\")#)eqkFd[l$\"))eqk\"Fd[lF[cmFe[l-
+F$6&7S7$F($\"%****F)7$F-$!3u***\\!yW()=x!#87$F4$!37]nB`L]I:!#77$F:$!35
++b0!GYOQ#Fjcm7$F?$!3s+&))>RWCC$Fjcm7$FD$!3)*\\dS'ygr4%Fjcm7$FI$!3=]ZM&
+H#f*)[Fjcm7$FN$!3B\\nUB#4,r&Fjcm7$FS$!3e]2@/!*oelFjcm7$FX$!3e]d()yta/u
+Fjcm7$Fgn$!3'=+Hko;YF)Fjcm7$F\\o$!3(4]5h?u4/*Fjcm7$Fao$!3Z+q)>E6P!**Fj
+cm7$Ffo$!3)**\\5*z!**p2\"!#67$F[p$!33+83l6[g6F\\fm7$F`p$!33vI9'*3HO7F
+\\fm7$Fep$!3)**p\\))*fVE8F\\fm7$Fjp$!3=+[>D2!GS\"F\\fm7$F_q$!3)\\F\\g0
+J;\\\"F\\fm7$Fdq$!3#**zv0&4Eq:F\\fm7$Fiq$!3;v#RqSIll\"F\\fm7$F^r$!3;D=
+aI$z'Q<F\\fm7$Fcr$!3N](GU6$RC=F\\fm7$Fhr$!32v2gC^5.>F\\fm7$F]s$!3-]-Th
+m+))>F\\fm7$Fbs$!3GvI,(\\&>w?F\\fm7$Fgs$!3)\\K_w8kH:#F\\fm7$F\\t$!3F]$
+)osj(eB#F\\fm7$Fat$!3&**f[W#G`@BF\\fm7$Fft$!31]*e9&4L0CF\\fm7$F[u$!39v
+3;[*4k[#F\\fm7$F`u$!3+]yS]VVwDF\\fm7$Feu$!3i*zB)z_KdEF\\fm7$Fju$!3N+&)
+z7OpVFF\\fm7$F_v$!3#\\(=Lfh&>#GF\\fm7$Fdv$!3]+.a%z<v!HF\\fm7$Fiv$!3#\\
+F(HDY-))HF\\fm7$F^w$!3GvrUgu<sIF\\fm7$Fcw$!3o*\\/&QAXaJF\\fm7$Fhw$!3tu
+=K1jeSKF\\fm7$F]x$!3I+o!4lVNK$F\\fm7$Fbx$!3n]'Rv^z$3MF\\fm7$Fgx$!3KvSO
++H^#\\$F\\fm7$F\\y$!3g+YUTF#)pNF\\fm7$Fay$!3u]5pV&G%eOF\\fm7$Ffy$!3S+c
+^H'ywt$F\\fm7$F[z$!3*\\Fp.vv@#QF\\fm7$F`z$!3gDfhw-0.RF\\fm7$Fez$!(h**)
+RF)-Fjz6#Q%x1=0F][l-F_[l6&Fa[lF(Fb[lFb[lFe[l-%+AXESLABELSG6%Q#x1F][lQ!
+F][l-%%FONTG6#%(DEFAULTG-%*AXESSTYLEG6#%'NORMALG-%(SCALINGG6#%,CONSTRA
+INEDG-%%VIEWG6$;F(FezF_^n" 1 2 0 1 10 0 2 9 1 4 1 1.000000 -21.000000 
+-49.000000 0 1 "x2=28-2*x1" "x2=20-0.75*x1" "x2=38-3*x1" "x2=0" "x1=0
+" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "8 1 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

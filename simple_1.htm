@@ -1,0 +1,1105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://www.siemens-akademie.de/0228.html -->
+<HTML><HEAD><TITLE>Simplexverfahren</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252"><!-- Version 1.2 --><!-- ******************************************************** --><!-- So sollte jedes HTML-Dokument beginnen --><!-- ******************************************************** --><!-- ******************************************************** --><!-- Der Titel MUSS angegeben werden --><!-- und steht oben in der Fensterleiste --><!-- ******************************************************** --><!-- ************************************* --><!-- Jetzt folgen noch die einzelnen Metas --><!-- Sie muessen angepasst werden          --><!-- ************************************* -->
+<META content="Klasse IT1A der Technik Akademie" name=Author>
+<META content=2000-10-27 name=Date>
+<META content="Die Technik Akademie von Siemens in Düsseldorf" name=Subject>
+<META content="Technik Akademie STA TA" name=Keywords><!--<META NAME="Category" CONTENT="CD Online Service:Online Toolbox:Richtlinie">
+<META NAME="Classification" CONTENT="CD Online Service:Online Toolbox:Richtlinie">--><!-- ******************************************************** --><!-- Die verwendeten Style-Klassen --><!-- ******************************************************** -->
+<STYLE type=text/css>.HEADING {
+	COLOR: #006633
+}
+</STYLE>
+<!-- ******************************************************** --><!-- Ende des Kopfteiles --><!-- Jetzt beginnt Der BODY, der sichtbare Teil des Dokuments --><!-- ******************************************************** -->
+<META content="MSHTML 5.50.4134.100" name=GENERATOR></HEAD>
+<BODY vLink=#000000 link=#000000 bgColor=#ffffff><!-- ******************************************************** --><!-- In der folgenden Tabelle sind die Firmenmarke --><!-- und die generische Navigation enthalten --><!-- ******************************************************** -->
+<TABLE cellSpacing=0 cellPadding=0 width=709 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=250 height=48><!-- ******************************************************** --><!-- Die Firmenmarke mit Link auf die Homepage (anpassen!) --><!-- ******************************************************** --><A 
+      href="http://www.siemens.de/"><IMG height=25 alt="Siemens AG" hspace=0 
+      src="Simplexverfahren_files/s-marke.gif" width=87 border=0></A> </TD>
+    <TD vAlign=top align=right width=459 height=48><!-- ************************************** --><!-- die generischen Buttons --><!-- ************************************** --><A 
+      href="http://www.siemens-akademie.de/index.html"><IMG height=25 alt=Home 
+      hspace=0 src="Simplexverfahren_files/g-home.gif" width=34 align=right 
+      border=0></A> <A href="http://www.siemens-akademie.de/kontakt.html"><IMG 
+      height=25 alt=Kontakt hspace=0 src="Simplexverfahren_files/g-kontakt.gif" 
+      width=46 align=right border=0></A> <A 
+      href="http://search.siemens.com/"><IMG height=25 alt=Finden hspace=0 
+      src="Simplexverfahren_files/g-finden.gif" width=40 align=right 
+      border=0></A> <!--<A HREF="../../../perl/de.cgi?l=en"><IMG SRC="images/g-english.gif" BORDER="0"
+                        HSPACE="0" VSPACE="0" WIDTH="43"
+                        HEIGHT="25" ALIGN="RIGHT" ALT="English"></A>--></TD></TR></TBODY></TABLE><!-- Ende Firmenmarke und generische Navigation --><!-- Primaernavigation -->
+<TABLE cellSpacing=0 cellPadding=0 border=0 HSPACE="0" VSPACE="0">
+  <TBODY>
+  <TR>
+    <TD noWrap rowSpan=3><IMG height=26 alt=" " hspace=0 
+      src="Simplexverfahren_files/dot-wt.gif" width=49 border=0></TD>
+    <TD noWrap><B><FONT face="Arial, Geneva, Helevtica" size=2><A 
+      class=PRIMARY 
+      href="http://www.siemens-akademie.de/0101.html">Ausbildung</A></FONT></B></TD>
+    <TD><FONT face="Arial, Geneva, Helevtica" size=2>&nbsp; </FONT></TD>
+    <TD noWrap><B><FONT face="Arial, Geneva, Helevtica" size=2><A 
+      class=PRIMARY 
+      href="http://www.siemens-akademie.de/0201.html">Aktuelles</A></FONT></B></TD>
+    <TD><FONT face="Arial, Geneva, Helevtica" size=2>&nbsp; </FONT></TD>
+    <TD noWrap><B><FONT face="Arial, Geneva, Helevtica" size=2><A 
+      class=PRIMARY href="http://www.siemens-akademie.de/0301.html">Schüler 
+      &amp; Absolventen</A></FONT></B></TD>
+    <TD><FONT face="Arial, Geneva, Helevtica" size=2>&nbsp; </FONT></TD>
+    <TD noWrap><B><FONT face="Arial, Geneva, Helevtica" size=2><A 
+      class=PRIMARY 
+      href="http://www.siemens-akademie.de/0401.html">Gästebuch</A></FONT></B></TD>
+    <TD><FONT face="Arial, Geneva, Helevtica" size=2>&nbsp; </FONT></TD></TR>
+  <TR><!-- Der Auszeichnungsstreifen --><!-- Das Attribut "NAME" dient nur der Orientierung und ist eigentlich kein HTML -->
+    <TD NAME="Ausbildung"><IMG height=6 alt=" " hspace=0 
+      src="Simplexverfahren_files/dot-wt.gif" width=10 border=0></TD>
+    <TD><IMG height=6 alt=" " hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+      width=55 border=0></TD>
+    <TD bgColor=#cccc99 NAME="Aktuelles"><IMG height=6 alt=" " hspace=0 
+      src="Simplexverfahren_files/dot-wt.gif" width=10 border=0></TD>
+    <TD><IMG height=6 alt=" " hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+      width=55 border=0></TD>
+    <TD NAME="Ausbildung"><IMG height=6 alt=" " hspace=0 
+      src="Simplexverfahren_files/dot-wt.gif" width=10 border=0></TD>
+    <TD><IMG height=6 alt=" " hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+      width=55 border=0></TD>
+    <TD NAME="Kommunikation"><IMG height=6 alt=" " hspace=0 
+      src="Simplexverfahren_files/dot-wt.gif" width=10 border=0></TD>
+    <TD><IMG height=6 alt=" " hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+      width=55 border=0></TD>
+    <TD NAME="Links"><IMG height=6 alt=" " hspace=0 
+      src="Simplexverfahren_files/dot-wt.gif" width=10 border=0></TD>
+    <TD><IMG height=6 alt=" " hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+      width=55 border=0></TD></TR></TBODY></TABLE><!-- ******************************************************** --><!-- Hier beginnen Sekundaernavigation und Inhalt --><!-- Diese Tabelle ist in zwei grosse Bereiche eingeteilt. --><!-- Der erste, linke Teil enthaelt die Sekundaernavigation --><!-- der zweite, rechte Teil enthaelt den eigentlichen Inhalt --><!-- ******************************************************** -->
+<TABLE cellSpacing=0 cellPadding=0 width=709 border=0 HSPACE="0" VSPACE="0">
+  <TBODY>
+  <TR><!-- Zeile mit dem Farbbalken = eine farbige Zelle mit einem weissen Decker links -->
+    <TD bgColor=#006633 colSpan=2><IMG height=6 alt=. hspace=0 
+      src="Simplexverfahren_files/space.gif" width=49 border=0></TD></TR>
+  <TR vAlign=top>
+    <TD width=133 height=40><!-- ******************************************************** --><!-- Hier beginnt die linke Haelfte der Tabelle  --><!-- Sekundaernavigation     --><!-- ******************************************************** -->
+      <TABLE cellSpacing=0 cellPadding=0 width=133 border=0>
+        <TBODY>
+        <TR>
+          <TD width=49 bgColor=#ffffff height=40><!-- ************************************* --><!-- Linker Farbbalken oberes Stueck --><!-- ************************************* --><IMG 
+            height=40 alt=. hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+            width=49 border=0> </TD>
+          <TD vAlign=top width=84 bgColor=#006633><!-- ******************************************************** --><!-- Oben bei BGCOLOR die Hintergrundfarbe des --><!-- des linken Balkens aendern --><!-- ******************************************************** --><IMG 
+            height=105 alt="Logo der Siemens Berufsausbildung" 
+            src="Simplexverfahren_files/siblogo.gif" width=89 border=0> <FONT 
+            face="Geneva, Arial, Helvetica" size=2><IMG height=1 alt=. hspace=0 
+            src="Simplexverfahren_files/dot-wt.gif" width=84 border=0> 
+        </FONT></TD></TR>
+        <TR bgColor=#cccc99>
+          <TD width=133 colSpan=2><!-- ******************************************************** --><!-- Ab hier muss geaendert werden --><!-- ******************************************************** --><FONT 
+            face="Geneva, Arial, Helvetica" size=2>&nbsp;&nbsp;<A class=NAVI 
+            href="http://www.siemens-akademie.de/0201.html">Projekte</A> 
+          </FONT></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD width=133 colSpan=2><FONT face="Geneva, Arial, Helvetica" 
+            size=2>&nbsp;&nbsp;<A class=NAVI 
+            href="http://www.siemens-akademie.de/0202.html">Veranstaltungen</A> 
+            </FONT></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD width=133><FONT face="Geneva, Arial, Helvetica" 
+            size=2>&nbsp;&nbsp;<A class=NAVI 
+            href="http://www.siemens-akademie.de/0203.html"></A> </FONT></TD>
+          <TD bgColor=#006633></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD width=133><FONT face="Geneva, Arial, Helvetica" 
+            size=2>&nbsp;&nbsp;<A class=NAVI 
+            href="http://www.siemens-akademie.de/0204.html"></A> </FONT></TD>
+          <TD bgColor=#006633></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD width=133><FONT face="Geneva, Arial, Helvetica" 
+            size=2>&nbsp;&nbsp;<A class=NAVI 
+            href="http://www.siemens-akademie.de/0205.html"></A> </FONT></TD>
+          <TD bgColor=#006633></TD></TR>
+        <TR bgColor=#ffffff>
+          <TD width=133><FONT face="Geneva, Arial, Helvetica" 
+            size=2>&nbsp;&nbsp;<A class=NAVI 
+            href="http://www.siemens-akademie.de/0206.html"></A> </FONT></TD>
+          <TD bgColor=#006633></TD></TR>
+        <TR>
+          <TD width=49 bgColor=#ffffff height=16370><!-- ******************************************************** --><!-- BEI SEHR LANGEN TEXTEN KANN HIER (oben + unten) DIE HOEHE DER ZELLE --><!-- AN DIE LAENGE DES TEXTES IM INHALT ANGEPASST WERDEN! --><!-- Die Zelle enthaelt ein Platzhalter Bild --><!-- Ein weisses Pixel, es wird auf die passende Groesse  --><!-- skaliert --><!-- ******************************************************** --><IMG 
+            height=220 alt=. hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+            width=49 border=0> </TD>
+          <TD vAlign=bottom width=84 bgColor=#006633><!-- ******************************************************** --><!-- Oben bei BGCOLOR die Hintergrundfarbe des --><!-- des linken Balkens aendern --><!-- ******************************************************** --><FONT 
+            face="Geneva, Arial, Helvetica" color=#cccc99 
+            size=2>&nbsp;<BR>&nbsp;<BR>
+            <CENTER>Technik<BR>Akademie<BR>West</CENTER></FONT></TD></TR></TBODY></TABLE><!-- ******************* --><!-- Ende der Navigation --><!-- ******************* --></TD>
+    <TD><!-- ******************************************************** --><!-- Hier beginnt der rechte Teil der Tabelle --><!-- Inhalt --><!-- Hier werden die Templates eingesetzt -->
+      <TABLE cellSpacing=0 cellPadding=0 width=576 border=0>
+        <TBODY>
+        <TR vAlign=bottom>
+          <TD width=16><!-- ******************** --><!-- Erster linker Einzug --><!-- ******************** --><IMG 
+            height=1 hspace=0 src="Simplexverfahren_files/dot-wt.gif" width=16 
+            border=0> </TD>
+          <TD vAlign=bottom colSpan=3 height=50><!-- ******************************************************** --><!-- Ueberschrift --><!-- Die Farbe der Ueberschrift muss hier und im Kopfteil --><!-- bei den Stylesheets angepasst werden  --><!-- ******************************************************** --><FONT 
+            face="Geneva, Arial, Helvetica" color=#006633 size=+1><B 
+            class=HEADING>Projekte</B> </FONT><BR></TD></TR>
+        <TR>
+          <TD width=16><!-- ******************** --><!-- Erster linker Einzug --><!-- ******************** --><IMG 
+            height=12 hspace=0 src="Simplexverfahren_files/dot-wt.gif" width=16 
+            border=0> </TD>
+          <TD width=48><!-- ********************* --><!-- Zweiter linker Einzug --><!-- ********************* --><IMG 
+            height=12 hspace=0 src="Simplexverfahren_files/dot-wt.gif" width=48 
+            border=0> </TD>
+          <TD width=1000><!-- ****************************** --><!-- und nun der endgueltige Inhalt --><!-- ****************************** --><FONT 
+            face="Geneva, Arial, Helvetica" size=-1>
+            <P align=justify></P><A name=anfang><B><FONT size=5>
+            <P align=center>Spieltheorie - 
+            Simplexverfahren<BR><BR>Inhaltsverzeichnis</P></A></B></FONT>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A 
+            href="http://www.siemens-akademie.de/0228.html#Einleitung"><B><FONT 
+            size=4>
+            <P align=justify>1. Einführung</P></A></B></FONT>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#1.1">
+            <P align=justify>1.1 Weshalb spielen wir?</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#1.2">
+            <P align=justify>1.2 Das Spiel und die Mathematik</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#1.3">
+            <P align=justify>1.3 Spieltheorie</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#1.3.1">
+            <P align=justify>1.3.1 Definition &amp; Geschichte</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#1.3.2">
+            <P align=justify>1.3.2 Weshalb Spieltheorie ...?</P></A>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#2"><B><FONT size=4>
+            <P align=justify>2. Spielstruktur</P></A></B></FONT>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#2.1">
+            <P align=justify>2.1 Spielpositionen</P>
+            <DIR></A>
+            <DIR><A href="http://www.siemens-akademie.de/0228.html#2.1.1">
+            <P align=justify>2.1.1 Gewinnstellung</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.1.2">
+            <P align=justify>2.1.2 Verluststellung</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.1.3">
+            <P align=justify>2.1.3 Remis</P></DIR></A></DIR><A 
+            href="http://www.siemens-akademie.de/0228.html#2.2">
+            <P align=justify>2.2 Gewinnstrategien</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.2.1">
+            <P align=justify>2.2.1 Definition</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.2.2">
+            <P align=justify>2.2.2 Beispiel (Nimspiel)</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.3">
+            <P align=justify>2.3 Das Minimax-Theorem</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.3.1">
+            <P align=justify>2.3.1 Aussage Minimax-Theorem</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#2.3.2">
+            <P align=justify>2.3.2 Folgen für die Spieltheorie</P></A>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#3"><B><FONT size=4>
+            <P align=justify>3. Matrixspiele</P></A></B></FONT>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#3.1">
+            <P align=justify>3.1 Spielmatrix</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#3.1.1"><FONT 
+            color=#000000>
+            <P align=justify>3.1.1 Beispiel (Schere-Stein-Papier)</P></A></FONT>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#4"><B><FONT size=4>
+            <P align=justify>4. Simplexverfahren</P></A></B></FONT>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#4.1">
+            <P align=justify>4.1 Einführung</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.2">
+            <P align=justify>4.2 symmetrische Spiele</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.3">
+            <P align=justify>4.3 Rechnung mit Ungleichungssystemen</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4">
+            <P align=justify>4.4 Simplex-Algorithmus</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4.1">
+            <P align=justify>4.4.1 Geschichte</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4.2">
+            <P align=justify>4.4.2 lineare Optimierung</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4.2.1">
+            <P align=justify>4.4.2.1 Beispiel (Produktionsprozeß)</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4.3">
+            <P align=justify>4.4.3 Simplex &amp; lineare Optimierung</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4.4">
+            <P align=justify>4.4.4 Der Simplex-Algorithmus</P></A><A 
+            href="http://www.siemens-akademie.de/0228.html#4.4.5">
+            <P align=justify>4.4.5 Minimax-Strategie herausfinden</P></A>
+            <P align=justify></P><A 
+            href="http://www.siemens-akademie.de/0228.html#5"><B><FONT size=4>
+            <P align=justify>5. Quellen</P></A></B></FONT>
+            <P align=justify></P>
+            <CENTER><A 
+            href="http://www.siemens-akademie.de/0228.html#anfang">Zurück zum 
+            Anfang</A></CENTER>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><A name=Einleitung><B><FONT size=5>
+            <P align=center>1. Einleitung</P></A></B></FONT>
+            <P align=justify></P><A name=1.1><FONT size=4>
+            <P align=justify>1.1 Weshalb spielen wir?</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Spiele dauern oft länger und doch langweilen sich 
+            die Teilnehmer kaum. Das gilt auch bei der Wiederholung des Spiels. 
+            Wie oft wird nach dem Ende des Spiels eine neue Partie 
+            angefangen!</P>
+            <P align=justify>Die Regeln des Spiels bleiben gleich, was sich aber 
+            ändert, das sind der Verlauf und der Ausgang. Der Spielverlauf ist 
+            selten derselbe, sobald ein Kontrahent verloren hat. Dieser wird nun 
+            anders spielen und eine neue Taktik ausprobieren, dessen Gegner 
+            versucht inzwischen die Neuauflage seines Sieges: Das erzeugt 
+            Spannung!</P>
+            <P align=justify>Die Spannung wird aber noch verstärkt, sobald ein 
+            Gewinn aussteht. Ein Gewinn kann materiell sein, aber auch ein 
+            kurzes Glücksgefühl oder eine Selbstbestätigung erzeugen, dazu eine 
+            Anerkennung für den Sieg.</P>
+            <P align=justify>Die angeführten Punkte sorgen für Abwechslung bei 
+            der Partie. Der Partieausgang ist beim Beginn noch unklar. Unwissen 
+            über Entwicklung und Resultat der Partie zeigen drei differente 
+            Spieltypen:</P>
+            <P align=justify>Der Zufall spielt bei Gesellschaftsspielen auf, 
+            sobald Karten gemischt werden oder Würfel den Spielverlauf 
+            beeinflussen. Für den Spielverlauf sind aber auch die Entscheidungen 
+            der Spieler wichtig, wie zufällig eintretende Prozesse und 
+            Wendungen. Bei Einfluß <SUB>Zufall</SUB> &gt; Einfluß 
+            <SUB>Spieler</SUB> verwenden wir den Begriff der 
+            <B>Glücksspiele</B>.</P>
+            <P align=justify>Bei Brettspielen wie Dame oder Schach können die 
+            Konkurrenten den Spielverlauf weitesgehend selber beeinflussen. Ein 
+            Spielabschnitt, der eine Handlungsmöglichkeit bietet, wird mit dem 
+            Begriff Zug beschrieben. Züge können aber nach kurzer Partie Schach 
+            bereits sehr vielfältig sein, die Konsequenzen sind kaum mehr 
+            einzugrenzen. Bei Unwissen aufgrund vieler Zugmöglichkeiten sprechen 
+            wir deshalb über <B>kombinatorische Spiele</B>.</P>
+            <P align=justify>Verschiedene Informationen können die Teilnehmer 
+            des Spiels aber auch beeinflussen. Die Informationen betreffen hier 
+            z.B. den Spielstand beim Pokern. Mir sind die Karten vom Gegner 
+            unbekannt, aber trotzdem muß ich mich entscheiden, wie ich spiele. 
+            Bei Unwissen vom Spielstand sprechen wir über <B>strategische 
+            Spiele</B>.</P>
+            <P align=justify><FONT face=Wingdings>è</FONT> Gewonnen wird also 
+            mit Glück, Logik und Bluff!</P>
+            <P align=justify>Ein paar andere Gründe für Unwissen über den 
+            weiteren Spielverlauf können aber auch körperliches Geschick (z.B. 
+            Mikado), Unklarheit bei den Regeln (bei Lernphase für unbekannte 
+            Spiele) oder ein schlechtes Gedächtnis (z.B. Memory) sein.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=1.2><FONT size=4>
+            <P align=justify>1.2 Das Spiel und die Mathematik</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Die Teilnehmer des Spiels wollen ihre 
+            Gewinnaussichten maximieren. Hier ist eine Überwindung vom Unwissen 
+            vorausgesetzt. Kann ich mein Unwissen überwinden, kann ich auch die 
+            Konsequenzen meiner Handlungen besser abschätzen.</P>
+            <P align=justify>Beispiele:</P>
+            <UL>
+              <P align=justify>
+              <LI>ein Lottospieler muß die Gewinn-Einsatz-Relation vergleichen
+              <P></P>
+              <P align=justify></P>
+              <LI>ein Schachspieler muß die Züge (Erwiderungen) vom Gegner 
+              berechnen
+              <P></P>
+              <P align=justify></P>
+              <LI>ein Pokerspieler muß die Karten vom Gegner einschätzen (Bluff 
+              oder gutes Blatt?)
+              <P></P></LI></UL>
+            <P align=justify>Rechenverfahren:</P>
+            <UL>
+              <P align=justify>
+              <LI>Glücksspiele werden anhand der Wahrscheinlichkeitsrechnung 
+              analysiert
+              <P></P>
+              <P align=justify></P>
+              <LI>kombinatorische Spiele werden mit den verschiedensten Methoden 
+              analysiert
+              <P></P>
+              <P align=justify></P>
+              <LI>strategische Spiele werden per <B>Spieltheorie</B> analysiert 
+              (worauf wir noch eingehen)
+              <P></P></LI></UL>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=1.3><FONT size=4>
+            <P align=justify>1.3 Spieltheorie</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Was ist eigentlich Spieltheorie?</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=1.3.1><FONT size=4>
+            <P align=justify>1.3.1 Definition &amp; Geschichte</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Bei der Spieltheorie werden Spiele wie ein Modell 
+            behandelt. Hier wird ergründet, was passiert, wenn ich was tue? Wie 
+            sind die Folgen? Wie kann ich das Ergebnis beeinflussen?</P>
+            <P align=justify>Hinweis: Die Spieltheorie entstand übrigens etwa 
+            1944.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=1.3.2><FONT size=4>
+            <P align=justify>1.3.2 Weshalb Spieltheorie ...?</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Das ist doch eigentlich langweilig: Stellt Euch 
+            vor, Euer Gegner verwendet eine Spieltheorie, die Euch (noch) 
+            unbekannt ist! Ihr werdet verlieren! Andererseits ist gerade das 
+            Herausfinden der Spieltheorie interessant: Ist überhaupt eine 
+            Spieltheorie vorhanden - und kann Ich die auch finden und 
+            entwickeln? Wie muß <B>Ich</B> mich für den Sieg verhalten, wie muß 
+            ich spielen?</P>
+            <CENTER><A 
+            href="http://www.siemens-akademie.de/0228.html#anfang">Zurück zum 
+            Anfang</A></CENTER>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><A name=2><B><FONT size=5>
+            <P align=center>2. Spielstruktur</P></A></B></FONT>
+            <P align=justify></P><A name=2.1><FONT size=4>
+            <P align=justify>2.1 Spielpositionen</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Drei Spielpositionen sind möglich: <B>Gewinn</B>- 
+            oder <B>Verlust</B>stellung, <B>Remis</B>.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.1.1><FONT size=4>
+            <P align=justify>2.1.1 Gewinnstellung</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Eine Spielposition, die bei optimalem Verhalten zum 
+            Sieg reicht. Nur ein Fehler ermöglicht dem Konkurrenten den 
+            Ausgleich oder gar den Sieg (bei optimalem Verhalten von diesem 
+            wiederum ...).</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.1.2><FONT size=4>
+            <P align=justify>2.1.2 Verluststellung</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Eine Spielposition, die bei optimalem Verhalten vom 
+            Konkurrenten eine Niederlage herbeiführen kann. Nur ein Fehler 
+            dieses Konkurrenten kann den Ausgleich oder gar den Sieg noch 
+            ermöglichen.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.1.3><FONT size=4>
+            <P align=justify>2.1.3 Remis</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Optimales Verhalten beider Gegner führt zum Remis 
+            (Gleichstand).</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.2><FONT size=4>
+            <P align=justify>2.2 Gewinnstrategien</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Was ist eigentlich eine Gewinnstrategie?</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.2.1><FONT size=4>
+            <P align=justify>2.2.1 Definition</P></FONT>
+            <P align=justify></P>
+            <P align=justify>Stategie bedeutet fehlerfreies und erfolgreiches 
+            Spielen. Die Strategie ist also ein Verhaltensplan, wonach sich ein 
+            Spieler richtet und den nächsten Spielzug festlegt. Ein Plan, der 
+            mit Sieg abgeschlossen wird, ist eine Gewinnstrategie. Ist die 
+            Anfangsposition (die Stellung) eine Gewinnposition, ist auch eine 
+            Gewinnstrategie vorhanden (fehlerfreies und erfolgreiches Spielen 
+            vorausgesetzt ...!).</P>
+            <P align=justify>Zur Veranschaulichung wollen wir eine Partie zeigen 
+            (<FONT face=Wingdings>à</FONT> 2.2.2)</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.2.2><FONT size=4>
+            <P align=justify>2.2.2 Beispiel</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><U><FONT size=4>
+            <P align=center>Nimspiel</P></U></FONT>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>Konkurrenten:</B> Guido und Chris</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>Vorbereitung:</B> 7 Hölzer wurden bei Beginn der 
+            Partie festgelegt</P>
+            <P align=justify></P>
+            <P align=justify>ein Spieler darf ein oder zwei Hölzer wegnehmen</P>
+            <P align=justify></P>
+            <P align=justify>mindestens ein Holz muß aber weggenommen werden</P>
+            <P align=justify></P>
+            <P align=justify>Gewinner ist, wer das letzte Hölzchen wegnehmen 
+            kann</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>Spielverlauf:</B> Zug 1: Guido nimmt 1 Hölzchen 
+            Rest: 6</P>
+            <P align=justify></P>
+            <P align=justify>Zug 2: Chris nimmt 2 Hölzchen Rest: 4</P>
+            <P align=justify></P>
+            <P align=justify>Zug 3: Guido nimmt 1 Hölzchen Rest: 3</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>Bemerkung:</B> Nun hat Chris sicher verloren! </P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>Begründung:</B> Chris muß nun ziehen und mindestens 
+            ein Hölzchen nehmen</P>
+            <P align=justify>das bedeutet, zwei oder ein Hölzchen sind noch 
+            übriggeblieben</P>
+            <P align=justify>Guido ist am Zug und kann bis max. zwei Hölzchen 
+            entfernen</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>was passiert ...?</B> (1) Chris nimmt 1 Hölzchen, 
+            zwei sind noch über</P>
+            <P align=justify><FONT face=Wingdings>à</FONT> Guido nimmt 2 
+            Hölzchen, ist Gewinner</P>
+            <P align=justify></P>
+            <P align=justify>(2) Chris nimmt 2 Hölzchen, eins ist noch über</P>
+            <P align=justify><FONT face=Wingdings>à</FONT> Guido nimmt 1 
+            Hölzchen, ist Gewinner</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><B>
+            <P align=justify>Anmerkung:</B> Bei der Revanche gewann übrigens 
+            Chris ...</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><A name=2.3><FONT size=4>
+            <P align=justify>2.3 Das Minimax-Theorem</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Das Minimax-Theorem ist ein wichtiges und 
+            grundlegendes Theorem der Spieltheorie. Mit ihm und dem Begriff der 
+            gemischten Strategie können wir Spiele vereinfachen. John von 
+            Neumann hat das Theorem übrigens erfunden.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.3.1><FONT size=4>
+            <P align=justify>2.3.1 Aussage Minimax-Theorem:</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>Den endlichen Zweipersonen-Nullsummenspielen kann 
+            ein <B>Wert (V)</B> zugewiesen werden. Dieser Wert stellt den 
+            durchschnittlichen Gewinn dar, den die Teilnehmer erwarten können. 
+            Voraussetzung ist auch hier optimales Verhalten.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>V ist also das Ergebnis, das die beiden 
+            Kontrahenten erreichen können. Von Neumann erklärt drei Gründe, 
+            weshalb das Ergebnis realistisch ist, die wir hier kurz 
+            darstellen:</P>
+            <OL>
+              <P align=justify>
+              <LI>Spieler 1 hat eine Strategie, die diesen Gewinn gewährleistet, 
+              Spieler 2 kann das kaum verhindern, daß der Spieler 1 den 
+              durchschnittlichen Gewinn erzielt. Aus diesem Grunde ist Spieler 1 
+              nur mit dem Mindestwert V zufrieden.
+              <P></P>
+              <P align=justify></P>
+              <LI>Spieler 2 hat eine Strategie, die nur den durchschnittlichen 
+              Verlust (durchschnittlichen Wert von V) zuläßt. Aus diesem Grunde 
+              kann Spieler 2 verhindern, daß Spieler 1 mehr als V erreicht.
+              <P></P>
+              <P align=justify></P>
+              <LI>Bei <B>Nullsummenspielen</B> bedeutet das aber: Spieler 2 
+              gewinnt das, was Spieler 1 verliert. Spieler 2 will die Verluste 
+              aber gern gering halten und ist motiviert, den durchschnittlichen 
+              Gewinn von Spieler 1 auf V beschränken.
+              <P></P></LI></OL>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=2.3.2><FONT size=4>
+            <P align=justify>2.3.2 Folgen für die Spieltheorie</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Was ändert das Minimax-Theorem nun?</P>
+            <P align=justify>Das Ausmaß abzuschätzen wird nun erleichtert. Wie 
+            sollen wir denn eine vernünftige Handlungsweise festlegen oder den 
+            Partieverlauf vorausbestimmen? Das Ergebnis ist schließlich eng mit 
+            dem Verhalten beider Kontrahenten verknüpft. Führen wir das Theorem 
+            ein, entstehen bei Zweipersonen-Nullsummenspielen auf beiden Seiten 
+            Gleichgewichte. Der Wert (V) ist nun klar und die Konkurrenten 
+            arbeiten auf das Ziel hin. Wir können bei dieser Partie auf eine 
+            gemischte Strategie verzichten, weil ich mit Sicherheit das Ziel 
+            erreichen kann (<FONT face=Wingdings>à</FONT> Aussage).</P>
+            <P align=justify>Die Sicherheit ist auch der Hauptvorteil. Ich kann 
+            mir sicher sein, daß ich, bei optimalem Verhalten vom Gegner, nur 
+            dieses Ziel erreichen kann, nichts besser machen konnte.</P>
+            <P align=justify></P>
+            <CENTER><A 
+            href="http://www.siemens-akademie.de/0228.html#anfang">Zurück zum 
+            Anfang</A></CENTER>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><A name=3><B><FONT size=5>
+            <P align=center>3. Matrixspiele</P></A></B></FONT>
+            <P align=justify></P><A name=3.1><FONT size=4>
+            <P align=justify>3.1 Spielmatrix</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Spiele und Matrizen – ein Zusammenhang?</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=3.1.1><FONT size=4>
+            <P align=justify>3.1.1 Beispiel 
+            (Schere-Stein-Papier)</P></A></FONT><B>
+            <P align=justify></P></B>
+            <P align=justify>Bei dem Fall des Kinderspiels Schere-Stein-Papier 
+            zeigen zwei Kontrahenten gleichzeitig auf. Die flache Hand steht für 
+            das Papier, die Faust für den Stein und die gespreizten Mittel- und 
+            Zeigefinger für die Schere. Die möglichen Spielausgänge werden durch 
+            folgende Spielregel bestimmt:</P>
+            <P align=justify><IMG height=197 
+            src="Simplexverfahren_files/sim2.gif" width=378> Schere schneidet 
+            Papier, Papier umwickelt den Stein und Stein schleift die 
+Schere.</P>
+            <P align=justify>Die Normalform des Spiels Schere-Stein-Papier wird 
+            per Ta-belle (Bild 1.1) angegeben, die Felder sind die 
+            Auszahlungswerte für Sieg (1), Niederlage (-1) und Remis (0) aus dem 
+            Blickwinkel des 1.Spielers (Zeilenspieler) enthal-ten. Wir 
+            bezeichnen die Art von Tabelle auch als <B>Spielmatrix</B> A = 
+            (a<SUB>ij</SUB>) des Spiels.</P>
+            <P align=justify>Schere-Stein-Papier gehört zur Kategorie der 
+            <B>Zweipersonen-Nullsummenspiele</B>. Das, was der 1.Spieler 
+            gewinnt, geht dem andern verloren. Bezeichnen wir mit B = 
+            (b<SUB>ij</SUB>) <I></I>die <B>Auszahlungsmatrix</B> des 2.Spielers, 
+            dann gilt B = -A. Spieler 2 ist übrigens der Spaltenspieler.</P>
+            <P align=justify>Schere-Stein-Papier läßt sich außerdem als 
+            symmetrisches Zweipersonen-Spiel identifizieren. Für Spiele dieser 
+            Klasse können wir die Auszahlungsmatrix B<I> </I>des 2.Spielers aus 
+            der Spielmatrix A erhalten, und zwar per Spiegelung entlang der 
+            Hauptdiagonalen. Aus diesem Grunde können bei dieser Spielart die 
+            Rollen getauscht werden (Rollentausch der Protagonisten)</P>
+            <P align=justify>Ein intuitiver Ansatz zur Lösung des 
+            Schere-Stein-Papier Spiels basiert auf der folgenden Überlegung: Der 
+            Zeilenspieler hat für jede mögliche Aktion des Spaltenspielers eine 
+            eindeutige bestmögliche Antwort und kann das Spiel stets positiv 
+            entscheiden, vorausgesetzt, ihm ist die Aktion des Spaltenspielers 
+            vorher bekannt. Der Spaltenspieler ist also gezwungen, die Wahl 
+            seiner Aktionen nach Möglichkeit verschleiern. Die Verschleierung 
+            ist bei Schere-Stein-Papier die Auswahl der drei Komponenten. Die 
+            Regeln des Spiels bewirken allerdings, daß die Art und Weise vom 
+            Zufall offensichtlich ist.</P>
+            <P align=justify>Der Spaltenspieler möge nun mit den 
+            Wahrscheinlichkeiten P<SUB>1</SUB> nach Schere und P<SUB>2</SUB><B> 
+            </B>nach Stein greifen. Wär die <B>gemischte Strategie</B><I> 
+            </I>dem Gegenspieler geläufig, würd dieser Schere, Stein, Papier 
+            wohl mit den relativen Häufigkeiten 1 - P<SUB>1</SUB><I> </I>– 
+            P<SUB>2</SUB>, P<SUB>1</SUB> und P<SUB>2</SUB><I> </I>auswählen. Das 
+            Ergebnis läßt sich aber nicht allein durch einmaliges Ausspielen 
+            begründen. Wir stellen hier aber eher den Zeilenspieler dar, der - 
+            wie bei Bild 1.2 dargestellt (S.8) - in der Art des einseitigen, 
+            kurzsichtigen Durchspielens,<SUP> </SUP>das sich über eine 
+            erkleckliche Anzahl von Runden erstreckt, der auf das gegnerische 
+            Handzeichen jeweils verspätet (1 Runde) und der seiner Ansicht nach 
+            besten Antwort reagiert.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>Die gleiche Schlußweise führt wiederum auf eine 
+            eindeutige Verteilung der Gestalt P<SUB>2</SUB>, 1 - P<SUB>1</SUB> - 
+            P<SUB>2</SUB><I> </I>und P<SUB>1 </SUB>für die Aktionen des 
+            Spaltenspielers. Das Ergebnis stimmt jedoch nur dann mit der 
+            ursprünglichen Annahme über das Verhalten vom Spieler überein, wenn 
+            Beziehungen P<SUB>1</SUB> = P<SUB>2</SUB><I> </I>und 
+            P<SUB>2</SUB><I> </I>= 1 – P<SUB>1 </SUB>- P<SUB>2</SUB><I> 
+            </I>gelten. Wir erhalten eine für die beiden Spieler geltende 
+            gemischte Strategie P* = (1/3, 1/3, 1/3), die zum 
+            gleichwahrscheinlichen Ausspielen der drei Möglichkeiten führen 
+            dürfte.</P>
+            <P align=justify>Welche Eigenschaften können wir nun der Strategie 
+            P* zubilligen? Die Strategie, die besser abschneidet, ist Illusion, 
+            P* ist einfach gut. Allerdings existieren auch andere Strategien, 
+            z.B. die <B>reinen Strategien</B> Schere, Stein und Papier, die sich 
+            genauso gut bewähren. Wäre Schere-Stein-Papier kein Vertreter der 
+            Nullsummenspiele, würden wir einige Probleme bekommen, Spielweise P* 
+            allein aus statischer Sichtweise begründen. Hier gäb’s keinen 
+            Verweis auf das hier verwendete fiktive Durchspielen.</P>
+            <P align=justify>Gott sei Dank existiert noch eine zweite gute 
+            Eigenschaft dieser gemischten Strategie. Ein Spieler, der P* 
+            anwendet, erreicht zumindest die <B>Sicherheitsschwelle</B><I> 
+            </I>des Spiels. Der Wert ist der größtmöglich-erwartete Gewinn, der 
+            dem Spieler - unabhängig von den Aktionen des Gegenspielers - 
+            garantiert wird.</P><FONT color=#000000>
+            <P align=justify>Wir beachten, daß alle reinen Strategien, die in P* 
+            mit positiver Wahrscheinlichkeit gespielt werden, (für sich allein 
+            genommen) dieselbe Sicherheit gewährleisten. Bei den besten 
+            Antworten auf P* wird aus diesem Grunde nur die gemischte Strategie 
+            selbst als vernünftige Spielweise aufgeführt.</P>
+            <P align=justify></P><IMG height=407 hspace=0 
+            src="Simplexverfahren_files/sim3.gif" width=454 align=left> 
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P></FONT>
+            <P align=justify>&nbsp;</P><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+            <CENTER><A 
+            href="http://www.siemens-akademie.de/0228.html#anfang">Zurück zum 
+            Anfang</A></CENTER><BR><BR><A name=4><B><FONT size=5>
+            <P align=center>4. Simplexverfahren</P></A></B></FONT>
+            <P align=justify></P>
+            <DIR>
+            <DIR><A name=4.1><FONT size=4>
+            <P align=justify>4.1 Einführung</P></A></FONT>
+            <P align=justify></P></DIR></DIR>
+            <P align=justify>Bei symmetrischen Zwei-Personen-Nullsummenspielen 
+            ist beiden Spielern die Existenz gemischter Strategien garantiert, 
+            mit der eine negative Gewinnerwartung verhindert werden kann. Wie 
+            läßt sich eine solche Strategie aber berechnen oder darstellen?</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=4.2><FONT size=4>
+            <P align=justify>4.2 Symmetrische Spiele</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Symmetrische Spiele wurden bereits betrachtet (Kap. 
+            3.1.1), Wir können die Untersuchungen auf symmetrische Spiele 
+            einschränken und definieren alle Spiele als Teil des symmetrischen 
+            Spiels. Hier können Spiele, dessen Normalform n Zeilen und m Spalten 
+            umfaßt, eingebettet werden in symmetrische Spiele. Die Kontrahenten 
+            verfügen über m + n + 1 Strategien. Dazu ist der Minimax-Wert (Kap. 
+            2.3) des symmetrischen Spiels bekannt (V=0). Mit dem Wert kann eine 
+            gegebene Strategie relativ einfach getestet werden: Optimal? 
+            Nicht-Optimal? Das ist sehr wichtig! Hier wird geprüft, wie sich die 
+            gegebene Strategie auswirkt, d.h. die Gewinnerwartungen werden 
+            berechnet, die Strategie muß sich mit den Strategien vom 
+            Kontrahenten messen. Bei diesem Beispiel treten die Spieler Schwarz 
+            und Weiß auf:</P>
+            <P align=justify></P><IMG height=100 hspace=0 
+            src="Simplexverfahren_files/sim4.gif" width=383 align=left> 
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>Wie können wir nun die Gewinnerwartungen 
+            ausrechnen?</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=4.3><FONT size=4>
+            <P align=justify>4.3 Rechnung mit 
+Ungleichungssystemen</P></A></FONT>
+            <P align=justify></P>
+            <DIR>
+            <DIR>
+            <P align=justify>Minimax-Strategie für Weiß suchen, lin. 
+            Ungleichungssystem aufstellen</P>
+            <P align=justify></P></DIR></DIR>
+            <P align=justify>-1b +3c -2d &gt;= 0</P>
+            <P align=justify>+1a -1c +4d &gt;= 0</P>
+            <P align=justify>-3a +1b -3d &gt;= 0</P>
+            <P align=justify>+2a -4b +3c &gt;= 0</P>
+            <P align=justify></P>
+            <P align=justify><B>Bedingungen</B>: a&gt;=0; b&gt;=0; c&gt;=0; 
+            d&gt;=0</P>
+            <P align=justify>a+b+c+d = 1</P>
+            <P align=justify></P>
+            <P align=justify>Solche Ungleichungssysteme werden als eine 
+            Verallgemeinerung linearer Gleichungssysteme gesehen. Sie werden 
+            vielfältig mathematisch untersucht. Möglich sind übrigens 
+            Größer-oder-Gleich-Beziehungen, wie aberauch 
+            Kleiner-Gleich-Beziehungen, die dann transformiert werden (in 
+            Größer-oder-Gleich-Beziehungen), eine Gleichung ergibt hier zwei 
+            Ungleichungen.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><A name=4.4><FONT size=4>
+            <P align=justify>4.4 Simplex-Algorithmus</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=4.4.1><FONT size=4>
+            <P align=justify>4.4.1 Geschichte</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Merkwürdig ist, daß bis 1947 die lineare 
+            Ungleichungstheorie nur vereinzelte Spezialarbeiten herausbrachte, 
+            während die linearen Gleichungen und verwandte Gebiete der linearen 
+            Algebra und Approximationstheorie eine umfangreiche Literatur 
+            entwickelt hatten. Vielleicht war dieses unverhältnismäßig starke 
+            Interesse an linearer Gleichungstheorie mehr, als Mathematiker 
+            zugeben mögen, durch ihre Benutzung als wichtiges Hilfsmittel für 
+            Theorien motiviert, die sich mit dem Verstehen der physikalischen 
+            Welt befassen. Der sogenannte <B>Simplex-Algorithmus</B> entstand 
+            1947.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=4.4.2><FONT size=4>
+            <P align=justify>4.4.2 Lineare Optimierung</P></A></FONT>
+            <P align=justify></P><FONT color=#000000>
+            <P align=justify>Ein typisches Problem der linearen Optimierung 
+            behandelt das einfaches Modell des Produktionsprozesses und die 
+            optimale Steuerung. Wir wollen entscheiden, wie viel der Produkte, 
+            die herstellbar sind, tatsächlich produziert werden. Zu 
+            berücksichtigen sind hier sowohl die Kapazitätsgrenzen der 
+            benötigten Ressourcen (Arbeitskräfte, Maschinen &amp; Rohstoffe), 
+            als auch die Überschüsse, die bei den Produkten über die enstehenden 
+            Kosten hinaus erlöst werden können. Ein Beispiel soll dies 
+            erläutern!</P>
+            <P align=justify></P></FONT>
+            <P align=justify>&nbsp;</P><A name=4.4.2.1><FONT size=4>
+            <P align=justify>4.4.2.1 Beispiel Produktionsprozeß</P></A></FONT>
+            <P align=justify></P><B>
+            <P align=justify>Ressourcen</B>: A 1 E für X 4 E für Y insg. 24 
+E</P>
+            <DIR>
+            <DIR>
+            <DIR>
+            <DIR>
+            <DIR>
+            <DIR>
+            <P align=justify>B</P>
+            <DIR>
+            <DIR>
+            <P align=justify>C</P>
+            <P align=justify>D</P>
+            <P 
+            align=justify></P></DIR></DIR></DIR></DIR></DIR></DIR></DIR></DIR><B>
+            <P align=justify>Produkte</B>&nbsp;: X</P>
+            <DIR>
+            <DIR>
+            <DIR>
+            <DIR>
+            <DIR>
+            <DIR>
+            <P align=justify>Y</P>
+            <P align=justify></P></DIR></DIR></DIR></DIR></DIR></DIR><B>
+            <P align=justify>Gesamtüberschuß</B>&nbsp;: pro Wahreneinheit von X 
+            sind 2 Geldeinheiten möglich</P>
+            <P align=justify>Pro Wahreneinheit von Y sind 3 Geldeinheiten 
+            möglich</P>
+            <P align=justify><FONT face=Wingdings>è</FONT> Überschuß = 2X+3Y</P>
+            <P align=justify></P><B>
+            <P align=justify>Kapazitätsgrenzen</B>: 24E von A stehen zur 
+            Verfügung</P>
+            <P align=justify><FONT face=Wingdings>è</FONT> X+4Y &lt;= 24</P>
+            <P align=justify>analog gilt für die andern Ressourcen:</P>
+            <P align=justify>B: X+2Y &lt;= 14</P>
+            <P align=justify>C: X+ Y &lt;= 10</P>
+            <P align=justify>D: 2X+Y &lt;= 17</P>
+            <P align=justify></P><B>
+            <P align=justify>Bedingung&nbsp;:</B> X,Y &gt;= 0 (kein neg. 
+            Teil)</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><IMG height=190 hspace=0 
+            src="Simplexverfahren_files/sim5.gif" width=334> 
+            <P align=justify>Einfache Situationen wie die des Beispiels lassen 
+            sich gut graphisch verdeutlichen. Dazu tragen wir die möglichen 
+            Produktionspläne, von den Produktionsmengen X und Y charakterisiert, 
+            in ein Koordinatensystem ein. Zulässig sind alle Zahlenpaare (X, Y), 
+            die alle 6 Ungleichungen, Nebenbedingungen genannt, erfüllen. Jede 
+            dieser Ungleichungen ist eine Halbebene, d.h. eine durch eine Gerade 
+            abgegrenzter Bereich der Ebene. Die Position dieser Gerade ergibt 
+            sich jeweils dadurch, daß wir das Größer-oder-Gleich-Zeichen der 
+            betreffenden Ungleichung durch ein Gleichheitszeichen ersetzen. 
+            Bilden wir den mengentheoretischen Durchschnitt der 6 Halbebenen, 
+            erhalten wir so das geometrische Äquivalent zu allen zulässigen 
+            Produktionsplänen.</P><IMG height=198 hspace=0 
+            src="Simplexverfahren_files/sim6.gif" width=238> 
+            <P align=justify>Wie verhält sich nun der Überschuß in dem so 
+            veranschaulichten Bereich der ganzen möglichen Produktionspläne? Wo 
+            erreicht er seinen maximalen Wert? Um das zu erkennen, stellen wir 
+            den Überschuß graphisch dar. Wir erhalten dann eine Schar von 
+            Niveau-Geraden, die jeweils 1nem bestimmten Überschußwert 
+            entsprechen. In der folgenden Graphik sind die fünf Geraden zu den 
+            Uberschüssen von 6, 12, 18, 24 und 30 gestrichelt 
+            eingezeichnet:</P><BR>
+            <P align=justify><IMG height=167 
+            src="Simplexverfahren_files/sim7.gif" width=319></P>
+            <P align=justify></P>
+            <P align=justify>Bei dieser Graphik erkennen wir, daß der maximal 
+            erreichbare Wert 24 beträgt und daß der dazugehörige 
+            Produktionsplan, der geometrisch 1er Ecke des zulässigen Bereichs 
+            entspricht, daraus besteht, x = 6 und y = 4 Einheiten der beiden 
+            Produkte X bzw. Y herzustellen.</P>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>Ist das Beispiel auch simpel, so offenbart es doch 
+            bereits typische Eigenschaften linearer Optimierungsproblemen, wo 
+            wir - im allgemeinen allerdings für mehr als zwei Parameter X und Y 
+            - den oder die optimalen Wert(e) bestimmen müssen.</P>
+            <P align=justify></P>
+            <UL>
+              <P align=justify>
+              <LI>Gesucht wird - eventuell nach Umformulierung - oftmals das 
+              Maximum der linearen Funktion. Lineare Ungleichungen 
+              (Größer-oder-Gleich-Form) müssen als Nebenbedingungen erfüllt 
+sein.
+              <P></P>
+              <P align=justify></P>
+              <LI>Vorteilhaft ist eine geometrische Deutung der beeinflussenden 
+              Parameter. Wir brauchen bei der Deutung so viele Dimensionen wie 
+              vorhandene Parameter. Sinnvoll ist das auch bei vier oder mehr 
+              Parametern. Zwar versagt dann die visuelle Vorstellungskraft, 
+              jedoch bleiben die prinzipiellen Techniken der analytischen 
+              Geometrie weiterhin anwendbar.
+              <P></P>
+              <P align=justify></P>
+              <LI>Alle linearen Nebenbedingungen schränken (einzeln für sich 
+              betrachtet) den zulässigen Bereich ein. Zurück bleibt ein 
+              Halbraum. Der mengentheoretische Durchschnitt dieser Halbräume 
+              ergibt den Bereich der zulässigen, für die Optimierung 
+              zugrundeliegenden Parameterwerte. Hier nun ein Beispiel zum 
+              Halbraum:
+              <P></P></LI></UL><IMG height=86 hspace=0 
+            src="Simplexverfahren_files/sim8.gif" width=89 align=left> 
+            <P align=justify></P>
+            <P align=center>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P>
+            <UL>
+              <P align=justify>
+              <LI>Der zulässige Bereich ist konvex (zwei Punkte verbinden, 
+              Gerade im Bereich)
+              <P></P>
+              <P align=justify></P>
+              <LI>Da der zu optimierende Zielwert linear von den Parametern 
+              abhängt, definieren die erreichbaren Zielwerte eine Schar 
+              paralleler Hyperebenen (Unterräume, bei dem dreidimensionalen Raum 
+              ist die Ebene normal).
+              <P></P>
+              <P align=justify></P>
+              <LI>Optimale Parameter finden sich bei den Eckpunkten des 
+              zulässigen Bereichs
+              <P></P></LI></UL>
+            <P align=justify></P>
+            <P align=justify>&nbsp;</P><A name=4.4.3><FONT size=4>
+            <P align=justify>4.4.3 Simplex &amp; lineare 
+            Optimierung</P></A></FONT>
+            <P align=justify></P>
+            <P align=justify>Zur Lösung wird meistens der 
+            <B>Simplex-Algorithmus</B> verwandt. Die Beziehungen zwischen der 
+            linearen Optimierung und der Spieltheorie wurden schnell erkannt von 
+            John von Neumann (<FONT face=Wingdings>à</FONT> Minimax-Theorem 
+            Kapitel 2.3), der dies bereits 1947 vermutete, was sich auch bald 
+            bestätigte. Mithilfe der Algorithmen der linearen Optimierung können 
+            wir Minimax-Strategien berechnen. Wir schränken das hier aber auf 
+            die symmetrischen Spiele ein. Als Beispiel nehmen wir die Partie der 
+            Spieler Schwarz und Weiß (<FONT face=Wingdings>à</FONT> Kapitel 
+            4.2).</P>
+            <P align=justify></P>
+            <P align=justify>Zunächst formulieren wir die Nebenbedingung als 
+            Ungleichung</P>
+            <P align=justify></P>
+            <P align=center>a+b+c+d = 1 <FONT face=Wingdings>è</FONT> a+b+c+d 
+            &lt;= 1</P>
+            <P align=justify></P>
+            <P align=justify>Nun suchen wir das Maximum der Funktion</P>
+            <P align=justify></P>
+            <P align=center>a+b+c+d</P>
+            <P align=justify></P>
+            <P align=justify>Wir wissen bereits, daß das Maximum 1 beträgt und 
+            wollen die Parameterwerte herausfinden, die das Erreichen vom 
+            Maximum gewährleisten. Die Berechnung erfolgt nach dem 
+            Simplex-Algorithmus.</P>
+            <P>&nbsp;</P>
+            <P>Wir erhöhen das Maximum Schritt für Schritt vom Wert 0 bis auf 
+            1</P>
+            <P align=center>a=b=c=d=0</P>
+            <P>&nbsp;</P>
+            <DIR><A name=4.4.4><FONT size=4>
+            <P>4.4.4 Der Simplex-Algorithmus</P></A></FONT><FONT color=#000000>
+            <P align=justify>Die Idee vom Simplex-Algorithmus basiert auf der 
+            geometrischen Deutung der linearen Optimierungsaufgabe. Allerdings 
+            werden die geometrischen Eigenschaften rein algebraisch 
+            charakterisiert: Für lösbare Probleme können wir ein Maximum finden, 
+            eine Ecke. Doch was ist eine Ecke? Wie kann eine Ecke berechnet 
+            werden?</P>
+            <P align=justify>Schauen wir kurz auf den Rand des zulässigen 
+            Bereichs, d.h. auf die Punkte, die noch gerade eben dazu gehören. 
+            Ein derartiger Randpunkt wird algebraisch charakterisiert, daß bei 
+            zumindest 1er Größer-oder-gleich-Nebenbedingung die Gleichheit gilt. 
+            Bei Ecken und andern speziellen Randpunkten müssen bei den 
+            Nebenbedingungen entsprechend mehr Identitäten gelten. Die nächste 
+            Grafik verdeutlicht das für zwei einfache Beispiele. Hier ist der 
+            zulässige Bereich zwei- bzw. dreidimensional:</P></FONT>
+            <P align=justify></P></DIR>
+            <P><IMG height=153 src="Simplexverfahren_files/sim9.gif" 
+            width=426></P>
+            <P align=justify></P>
+            <P align=justify>Auf der Optimumsuche können wir nun versuchen, alle 
+            Ecken durchzuprobieren. Wir bestimmen die Ecken durch genügend 
+            Nebenbedingungen und das Ausrechnen des entstandenen 
+            Gleichungssystems. Ist dieses Gleichungssystem lösbar und sind alle 
+            Nichtnegativitätsbedingungen erfüllt, ist dort eine Ecke. Sind alle 
+            Ecken bestimmt, suchen wir hier heraus das größte Ergebnis aus. 
+            Praktikabel ist das aber kaum, die Eckenanzahl kann sich sehr 
+            schnell sehr viel erhöhen ...</P>
+            <P align=justify></P>
+            <P align=justify>Besser geeignet ist hier dieses 
+Verfahren&nbsp;:</P>
+            <P align=justify></P>
+            <P align=justify>Wir nehmen eine Ecke und betrachten dort die 
+            Kanten, die von dort ausgehen, wie sich die Zielfunktion entlang 
+            dieser Richtung ändert. Ist eine Ecke unauffindbar, ist dort bereits 
+            das Maximum. Ansonsten wählen wir Kante mit Steigung aus und 
+            betrachten den Weg zur gegenüberliegenden Kante. Das bedeutet 
+            rechnerisch, daß wir bei den Nebenbedingungen eine 
+            Gleichheitbeziehung aufgeben und eine andere dazu gefordert wird. 
+            Dieser Schritt wird <B>Ausstausch-Schritt</B> genannt&nbsp;! Wir 
+            müssen nur beachten, daß Größer-oder-Gleich-Beziehungen algebraisch 
+            schwer handzuhaben sind. Aus diesem Grunde werden 
+            <B>Schlupfvariablen</B> (Variablen, die zusätzlich sind) mitbenutzt. 
+            Sie helfen bei der Umformung Ungleichungen <FONT 
+            face=Wingdings>à</FONT> Gleichungen. Nun wählen wir eine Variable 
+            aus, wonach wir die Gleichungen auflösen (Auflösung entspricht Ecke, 
+            dort wirken sich die Eigenschaften der Optimierungsaufgabe besonders 
+            deutlich aus). Ein Beispiel (Produktionsprozeß):</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P align=center>Z = 2X + 3Y</P>
+            <P align=center>U<SUB>1</SUB> = 24-X-4Y</P>
+            <P align=center>U<SUB>2</SUB>= 14-X-2Y</P>
+            <P align=center>U<SUB>3</SUB>= 10-X-Y</P>
+            <P align=center>U<SUB>4</SUB>= 17-2X-Y</P>
+            <P align=justify></P>
+            <P align=justify><B>Hinweis</B>: Z ist das Ziel der Optimierung 
+            (max. Überschuss)</P>
+            <P align=justify>Die Bezeichnung Z steht für das zu optimierende 
+            Ziel, das heißt den zu maximierenden Überschuß. Über die vier 
+            aufgeführten Nebenbedingungen hinaus müssen alle Variablen 
+            einschließlich der hinzugekommenen Schlupfvariablen U<SUB>1</SUB>, 
+            U<SUB>2</SUB>, U<SUB>3 </SUB>und U<SUB>4 </SUB>mindestens gleich 0 
+            sein:</P>
+            <P align=justify></P>
+            <P align=center>X&gt;=0, Y&gt;=0, U<SUB>1</SUB>&gt;=0, 
+            U<SUB>2</SUB>&gt;=0, U<SUB>3</SUB>&gt;=0, U<SUB>4</SUB>&gt;=0</P>
+            <P align=justify></P>
+            <P align=justify>Die hier angeführte Ausgangsform der 
+            Nebenbedingungen entspricht der Ecke (X, Y)=(0, 0). Deutlich 
+            sichtbar ist, daß das Ziel Z, verglichen mit dem erreichten Wert, 
+            noch verbessert werden kann. Dazu kann sowohl die Variable x als 
+            auch y begrenzt vergrößert werden (alle Nebenbedingungen bleiben 
+            unverletzt). Beim Simplex-Algorithmus wird allerdings pro Schritt 
+            nur eine Variable für die Vergrößerung ausgewählt (beim Wert 0 
+            beginnen). Da bei der gleichen Vergrößerung die Variable y eine 
+            größere Steigerung vom Ziel bringt, wählen wir y für die 
+            Vergrößerung. Wie weit ist dies aber möglich? Schauen wir auf die 
+            vier Gleichungen! Bei y=6 ist Schluß (U<SUB>1</SUB> wird Null, der 
+            Rest der Variablen ist noch positiv). Um für die so berechnete Ecke 
+            mit x=0 und y=6 die gleiche Aussagekraft wie bei der 1.Ecke zu 
+            erhalten, wird die die Begrenzung vorgebende 2.Gleichung nach y 
+            aufgelöst und das Ergebnis bei den restlichen vier Gleichungen 
+            eingesetzt:</P><IMG height=229 hspace=0 
+            src="Simplexverfahren_files/sim10.gif" width=452 align=left> 
+            <P>&nbsp;</P>
+            <P>&nbsp;</P>
+            <P align=justify>Aus der geometrischen Sichtweise entsteht bei dem 
+            Gleichungssystem eine Koordinatensystem-Form mit P(X,Y) = (0,6) als 
+            Ursprung und den Achsen X und U<SUB>1</SUB>. Algebraisch betrachtet, 
+            ist das nur eine Äquivalenzumformung des Gleichungssystems (Zielwert 
+            und Nebenbedingungen herausfinden). Das Ergebnis lautet nun:</P>
+            <P align=justify></P>
+            <P align=center>Z = 18+(5/4X)-(3/4 U<SUB>1</SUB>)</P>
+            <P align=center>Y = 6-(1/4X)-(1/4 U<SUB>1</SUB>)</P>
+            <P align=center>U<SUB>2</SUB> = 2-(1/2X)+(1/2 U<SUB>1</SUB>)</P>
+            <P align=center>U<SUB>3</SUB> = 4-(3/4X)+(1/4 U<SUB>1</SUB>)</P>
+            <P align=center>U<SUB>4 </SUB>= 11-(7/4X)+(1/4 U<SUB>1</SUB>)</P>
+            <P align=center></P>
+            <P align=justify>Aus der 1.Gleichung erkennen wir sofort, daß eine 
+            weitere Vergrößerung vom Ziel nur erreicht wird, wenn die Variable x 
+            über 0 hinaus wächst. Wie weit dies höchstens möglich ist 
+            (Bedingung: Variablen nur positiv), das gibt die 3.Gleichung vor, 
+            nämlich bis zum Wert x=4. Die Gleichung, die die Grenze vorgibt, 
+            wird nach x (Variable, die vergrößert werden soll) aufgelöst und bei 
+            den restlichen Gleichungen eingesetzt. Wir erhalten:</P>
+            <P align=justify></P>
+            <P align=center>Z = 23-(5/2U<SUB>2</SUB>)+(1/2U<SUB>1</SUB>)</P>
+            <P align=center>Y = 5+(1/2U<SUB>2</SUB>)-(1/2U<SUB>1</SUB>)</P>
+            <P align=center>X = 4-2U<SUB>2</SUB>+U<SUB>1</P></SUB>
+            <P align=center>U<SUB>3 </SUB>= 
+            1+(3/2U<SUB>2</SUB>)-(1/2U<SUB>1</SUB>)</P>
+            <P align=center>U<SUB>4 </SUB>= 
+            4+(7/2U<SUB>2</SUB>)-(3/2U<SUB>1</SUB>)</P>
+            <P align=center></P>
+            <P align=justify>Für eine nochmalige Erhöhung des Zielwertes muß der 
+            Wert der Variablen u<SUB>1 </SUB>über 0 hinaus vergrößert werden. 
+            Das ist, wenn keine Nebenbedingung verletzt werden soll, bis zur 
+            Grenze u<SUB>1 </SUB>= 2 möglich (Nebenbedingungen bleiben 
+            unverletzt). Wie bei den Schritten vorher wird die die Begrenzung 
+            vorgebende Gleichung nach der zu vergrößernden Variable u<SUB>1 
+            </SUB>aufgelöst und in die andern eingesetzt:</P>
+            <P align=justify></P>
+            <P align=center>Z<SUB> </SUB>= 24-U<SUB>2</SUB>-U<SUB>3</P></SUB>
+            <P align=center>Y<SUB> </SUB>= 4-U<SUB>2</SUB>+U<SUB>3</P></SUB>
+            <P align=center>X<SUB> </SUB>= 6+U<SUB>2</SUB>-2U<SUB>3</P></SUB>
+            <P align=center>U<SUB>1 </SUB>= 2+3U<SUB>2</SUB>-2U<SUB>3</P></SUB>
+            <P align=center>U<SUB>4 </SUB>= 1-U<SUB>2</SUB>+3U<SUB>3</P></SUB>
+            <P align=justify><B>Wichtig</B> bei den Rechenschritten ist die 
+            Auflösung der Gleichungen nach der wechselnden Auswahl der 
+            Variablen. Schritt für Schritt wird jeweils eine ausgewählte 
+            Gleichung nach der geeigneten Variable aufgelöst und dieses Ergebnis 
+            bei den andern Gleichungen eingesetzt. Die aktuell erreichte Form 
+            von Zielfunktion und Nebenbedingungen war bei der Auswahl der 
+            Gleichung von Bedeutung. Die Literatur beschreibt den 
+            Simplex-Algorithmus oft mit Tabellen (Simplex-Tableau). Mit dieser 
+            Art lassen sich die Auswahlen von Zeilen und Spalten und die 
+            anschließende Transformation der Koeffizienten schematisieren. Die 
+            Rechnungen sind gleich.</P>
+            <P>&nbsp;</P>
+            <P>&nbsp;</P><A name=4.4.5><FONT size=4>
+            <P>4.4.5 Minimax-Strategie herausfinden</P></A></FONT>
+            <P align=justify>Wenn wir wie bei der Simplex-Methode bei den 
+            symmetrischen Spielen vorgehen, erhalten wir bei der Suche nach 
+            einer Minmax-Strategie ein Gleichungssystem mit folgender Form:</P>
+            <P align=justify></P>
+            <P align=center>Z = a+b+c+d</P>
+            <P align=center>u<SUB>1 </SUB>= -b+3c-2d</P>
+            <P align=center>u<SUB>2 </SUB>= a-c-2d</P>
+            <P align=center>u<SUB>3 </SUB>= -3a+b-3d</P>
+            <P align=center>u<SUB>4 </SUB>= 2a-4b+3c</P>
+            <P align=center>u<SUB>5 </SUB>= 1-a-b-c-d</P><B></B>
+            <P><B>Hinweis</B>: a,b,c,d und die u<SUB>x</SUB>-Variablen müssen 
+            positiv sein</P>
+            <P>Wieder wird das Gleichungssystem Schritt für Schritt 
+            umgeformt:</P>
+            <P align=center>Z = -(1/3 u<SUB>3</SUB>)+(4/3b)+c</P>
+            <P align=center>u<SUB>1 </SUB>= -b+3c-2d</P>
+            <P align=center>u<SUB>2 </SUB>= -(1/3 u<SUB>3</SUB>)+(1/3b)-c+3d</P>
+            <P align=center>a<SUB> </SUB>= -(1/3 u<SUB>3</SUB>)+(1/3b)-d</P>
+            <P align=center>u<SUB>4 </SUB>= -(2/3 
+            u<SUB>3</SUB>)-(10/3b)+3c+2d</P>
+            <P align=center>u<SUB>5 </SUB>= 1+(1/3 u<SUB>3</SUB>)-(4/3b)-c</P>
+            <P align=justify><B>Bemerkenswert</B> bei diesem Ergebnis des 
+            1.Transformationsschrittes ist, daß mit ihm keinerlei Verbesserung 
+            erzielt wird. Obwohl wir die Variablen a<SUB> </SUB>und u<SUB>3 
+            </SUB>tauschen, wird nicht eine neue Ecke erreicht. Geometrisch 
+            können wir das Phänomen als eine mehrfache Ecke vorstellen, bei der 
+            mehr Kanten, Seitenflächen usw. zusammenlaufen als mindestens 
+            erforderlich und normal üblich. Auch bei den weiteren Schritten des 
+            Simplex-Algorithmus, die wir hier übergehen, bleibt eine andere Ecke 
+            unerreicht. Schließlich gelangen wir dann aber doch noch zur Ecke 
+            mit dem optimalen Zielwert Z=1. Die Koordinaten lauten:</P>
+            <P align=justify></P>
+            <P align=center>a=0, b=3/8, c= 1/2, d=3/8</P>
+            <P align=center></P>
+            <P align=justify>Die Minimax-Strategie ist gefunden!</P>
+            <P align=justify></P>
+            <P align=justify><B>Übrigens</B>: Die Methode funktioniert auch für 
+            unsymmetrische Spiele, solang die zunächst symmetrisiert werden. Die 
+            Minimax-Strategie kann bei Praxisanwendungen nur bei sehr komplexen 
+            Spielen scheitern.</P>
+            <P align=justify></P>
+            <CENTER><A 
+            href="http://www.siemens-akademie.de/0228.html#anfang">Zurück zum 
+            Anfang</A></CENTER>
+            <P align=justify>&nbsp;</P>
+            <P align=justify>&nbsp;</P><A name=5><B><FONT size=5>
+            <P align=center>5. Quellen</P></A></B></FONT>
+            <P align=justify></P>
+            <P align=justify>Einführung in die Spieltheorie (M.J. Holler / G. 
+            Illing)</P>
+            <P align=justify>Entscheidungs- &amp; Spieltheorie (H. Bühlmann / H. 
+            Loeffel / E. Nievergelt)</P>
+            <P align=justify>Glück, Logik &amp; Bluff (J. Bewersdorff)</P>
+            <P align=justify>Spieltheorie für Nicht-Mathematiker (M.D. 
+Davis)</P>
+            <P align=justify>Wer gewinnt das Spiel (A. Mehlmann)</P>
+            <P align=justify></P><BR><BR>
+            <CENTER><A 
+            href="http://www.siemens-akademie.de/0228.html#anfang">Zurück zum 
+            Anfang</A></CENTER></FONT></TD>
+          <TD width=160><!-- *************** --><!-- Rechter Abstand --><!-- *************** --><IMG 
+            height=12 hspace=0 src="Simplexverfahren_files/dot-wt.gif" width=1 
+            border=0> </TD></TR></TBODY></TABLE><!-- Ende des Inhaltsteils --><!-- ************************************************ --><!-- Ende des Inhalts --><!-- Oberhalb dieser Marke enden die Inhaltstemplates --><!-- ************************************************ --></TD></TR>
+  <TR>
+    <TD width=133>&nbsp; </TD>
+    <TD><!-- ******************************************************** --><!-- Jetzt folgt noch die Fusszeile --><!-- ******************************************************** -->
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD width=16><!-- ******************** --><!-- Erster linker Einzug --><!-- ******************** --><IMG 
+            height=12 alt=. hspace=0 src="Simplexverfahren_files/dot-wt.gif" 
+            width=16 border=0> </TD>
+          <TD width=560 colSpan=2><!-- ******************** --><!-- Die schwarze Linie --><!-- ******************** -->
+            <HR width=560 noShade>
+          </TD></TR>
+        <TR>
+          <TD width=16>&nbsp; </TD>
+          <TD vAlign=top><FONT face="MS Sans Serif, Geneva, Arial, Helvetica" 
+            size=1><!-- ******************************************************** --><!-- Copyright und Adresse --><!-- ******************************************************** -->© 
+            Siemens AG 2001, D-40221 Düsseldorf<BR><A 
+            href="mailto:webmaster@siemens-akademie.de">Webmaster der Technik 
+            Akademie West</A> </FONT></TD>
+          <TD vAlign=top align=right><FONT 
+            face="MS Sans Serif, Geneva, Arial, Helvetica" size=1>2001-01-15 
+            </FONT></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- ******************************************************** --><!-- Damit endet die Seite --><!-- ******************************************************** --></BODY></HTML>
